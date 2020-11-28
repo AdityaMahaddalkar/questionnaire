@@ -32,7 +32,9 @@ dependencies {
     implementation("io.micronaut.security:micronaut-security-jwt")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("mysql:mysql-connector-java")
-    testRuntimeOnly("org.testcontainers:mysql")
+    testRuntimeOnly("com.h2database:h2")
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.1.0'
+
 }
 
 
