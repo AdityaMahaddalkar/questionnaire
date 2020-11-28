@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.company
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, gradle, http-client, java, java-application, jdbc-hikari, junit, logback, mysql, netty-server, readme, security-annotations, security-jwt, shade, testcontainers, yaml]
